@@ -1,5 +1,12 @@
+import Home from "./components/Home/Home";
+import Layout from "./containers/Layout";
+
 function App() {
-  return <div className="text-6xl bg-red-500">THis is cyperscam</div>;
+  return (
+    <Layout>
+      <Home />
+    </Layout>
+  );
 }
 
 export default App;
